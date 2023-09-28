@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Chess board</title>
+<style>
+
+#outer{
+height:1000px;
+width:1000px;
+border:25px solid black;
+display:flex;
+flex-wrap:wrap;
+}
+
+.white{
+background-color:lightyellow;
+height:125px;
+width:125px;
+font-size:70px;
+text-align:center;
+display:table-cell;
+vertical-align:middle;
+}
+.black{
+background-color:#999;
+height:125px;
+width:125px;
+font-size:70px;
+text-align:center;
+display:table-cell;
+vertical-align:middle;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+
+
+<div class="white">&#9820;</div>
+<div class="black">&#9822;</div>
+<div class="white">&#9821;</div>
+<div class="black">&#9819;</div>
+<div class="white">&#9818;</div>
+<div class="black">&#9821;</div>
+<div class="white">&#9822;</div>
+<div class="black">&#9820;</div>
+
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+<div class="black">&#9823;</div>
+<div class="white">&#9823;</div>
+
+
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+
+
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+<div class="black"></div>
+<div class="white"></div>
+
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+<div class="white">&#9817;</div>
+<div class="black">&#9817;</div>
+
+<div class="black">&#9814;</div>
+<div class="white">&#9816;</div>
+<div class="black">&#9815;</div>
+<div class="white">&#9813;</div>
+<div class="black">&#9812;</div>
+<div class="white">&#9815;</div>
+<div class="black">&#9816;</div>
+<div class="white">&#9814;</div>
+
+</div>
+
+</body>
+</html>
